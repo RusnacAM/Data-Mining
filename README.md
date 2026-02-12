@@ -5,6 +5,9 @@ Gowalla is a location-based social networking website where users have a friends
 
 The track that we are going to use for this project is Track A: Standard Analysis Project.
 
+// Data cleaning <br>
+Before applying any algorithms the validity of the data must be checked. For further analysis it might be useful to know if the frienship graph is connected \ find the connected subgraphs. Secondly, it must be checked if the "looping" of coordinates needs to be accounted for i.e. is the area of our observations large enough. Furthermore, in order to catch some nonsense data a couple of things can be done: 1. for same location IDs check if the coordiantes are similar; 2. For same person check ins that are near in time does it seem that seem like they teleported.
+ 
 // Clustering <br>
 In the context of clustering, the main task on this dataset would be hirearchical and subspace clustering of user check-in locations. The goal is to provide an analysis on spatial behaviour at multiple scales, for example multiple clusters could represent a street, a neighbourhood, thus patterns of behaviour can be analysed relative to different granularities. Based on these scales behvaiours can be compared as well, most importantly if different users or communities are similar in distinct subspaces.
 
