@@ -218,3 +218,7 @@ __marimo__/
 .DS_Store
 *.csv
 *.txt
+
+bigclam
+bigclam_output
+bigclam_train_output
